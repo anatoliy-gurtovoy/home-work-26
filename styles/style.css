@@ -426,6 +426,12 @@ h1 {
 
 
 .footer-top-first_button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
     width: 210px;
     height: 60px;
     background: #F063B8;
@@ -434,14 +440,33 @@ h1 {
     border-radius: 50px;
 }
 
+.footer-top-first_button:hover {
+    background: #EB4BAB;
+    border: 1px solid #EB4BAB;
+}
+
 .footer-top-second_button {
     margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+
     width: 210px;
     height: 60px;
+
     background: #FFFFFF;
     border: 1px solid #9C69E2;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
+}
+
+.footer-top-second_button:hover {
+    background: #9C69E2;
+    color: #FFFFFF;
 }
 
 .footer-navigation {
